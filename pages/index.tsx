@@ -5,6 +5,7 @@ import Topbar from "@/components/topbar";
 import Carrosel from "@/components/carrosel";
 import SectionServicos from "@/components/sectionServicos";
 import SectionContato from "@/components/sectionContato";
+import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
 
@@ -13,7 +14,7 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col  ${inter.className}`}
     >
-      <header>
+      <Head>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <title>Revolução e Inovação Belém - Serviços para Condomínios e Empresas</title>
         <meta name="description" content="A Revolução e Inovação em Belém oferece soluções personalizadas de portaria, limpeza e administração para condomínios e empresas. Entre em contato para saber mais." />
@@ -32,7 +33,7 @@ export default function Home() {
 
         {/* <!-- Additional SEO Meta Tags --> */}
         <meta name="keywords" content="Revolução e Inovação, Belém, serviços para condomínios, portaria, limpeza, administração, empresas, eventos" />
-      </header>
+      </Head>
       <Background />
       <Topbar selected={[true, false, false]} />
       <Carrosel />
