@@ -1,7 +1,7 @@
 import { useRouter } from "next/router"
 
 const text = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis dolor at nulla lacinia dapibus vitae eu neque.`
-const numero = "91984837847"
+const numero = "91986227378"
 
 export default function SectionServicos() {
     const r = useRouter()
