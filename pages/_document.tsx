@@ -11,13 +11,13 @@ export default function Document() {
         {/* <!-- Open Graph Meta Tags --> */}
         <meta property="og:title" content="Revolução e Inovação Belém - Serviços para Condomínios" />
         <meta property="og:description" content="A Revolução e Inovação em Belém oferece soluções personalizadas de portaria, limpeza e administração para condomínios e empresas. Entre em contato para saber mais." />
-        <meta property="og:image" content="/images/preview.png" />
+        <meta property="og:image" content="images/preview.png" />
         <meta property="og:url" content="https://www.revolucaoeinovacao.com" />
 
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:title" content="Revolução e Inovação Belém - Serviços para Condomínios" />
         <meta name="twitter:description" content="A Revolução e Inovação em Belém oferece soluções personalizadas de portaria, limpeza e administração para condomínios e empresas. Entre em contato para saber mais." />
-        <meta name="twitter:image" content="/images/preview.png" />
+        <meta name="twitter:image" content="images/preview.png" />
         <meta name="twitter:card" content="summary_large_image" />
 
         {/* <!-- Additional SEO Meta Tags --> */}
